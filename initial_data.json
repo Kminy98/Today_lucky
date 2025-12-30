@@ -1,0 +1,929 @@
+[
+{
+  "model": "fortune.fortunemessage",
+  "pk": 1,
+  "fields": {
+    "tone": "good",
+    "text": "포기하지 않으면 기회가 와요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:36:01.103Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 2,
+  "fields": {
+    "tone": "good",
+    "text": "작은 약속을 지키면 큰 기회가 따라와요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:47:48.954Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 3,
+  "fields": {
+    "tone": "good",
+    "text": "오늘은 집중력이 올라가니 미루던 걸 끝내기 좋아요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:48:22.118Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 4,
+  "fields": {
+    "tone": "good",
+    "text": "말 한마디가 관계를 부드럽게 만들 수 있어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:48:38.498Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 5,
+  "fields": {
+    "tone": "good",
+    "text": "가벼운 시도가 의외의 성과로 이어질 수 있어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:48:48.027Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 6,
+  "fields": {
+    "tone": "good",
+    "text": "정리부터 하면 속도가 붙어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:48:58.468Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 7,
+  "fields": {
+    "tone": "mid",
+    "text": "오늘은 말이 짧을수록 오해가 줄어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:49:38.278Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 8,
+  "fields": {
+    "tone": "mid",
+    "text": "우선순위를 하나만 고정하면 마음이 편해져요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:49:47.790Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 9,
+  "fields": {
+    "tone": "mid",
+    "text": "급하게 결론 내리기보다 한 번 더 확인이 이득이에요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:49:57.932Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 10,
+  "fields": {
+    "tone": "mid",
+    "text": "할 일을 쪼개서 처리하면 부담이 줄어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:50:15.655Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 11,
+  "fields": {
+    "tone": "mid",
+    "text": "컨디션 관리가 곧 성과로 이어져요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:50:23.200Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 12,
+  "fields": {
+    "tone": "warn",
+    "text": "감정적인 결정은 내일로 미루는 게 좋아요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:50:40.233Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 13,
+  "fields": {
+    "tone": "warn",
+    "text": "사소한 약속도 놓치기 쉬우니 체크가 필요해요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:50:48.251Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 14,
+  "fields": {
+    "tone": "warn",
+    "text": "오늘은 ‘추측’보다 ‘질문’이 안전해요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:50:54.767Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 15,
+  "fields": {
+    "tone": "warn",
+    "text": "무리한 일정은 실수를 부를 수 있어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:51:03.194Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 16,
+  "fields": {
+    "tone": "warn",
+    "text": "지출은 한 번 더 멈추고 비교해보세요.",
+    "is_active": true,
+    "created_at": "2025-12-30T16:51:09.151Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 17,
+  "fields": {
+    "tone": "good",
+    "text": "오늘의 선택이 생각보다 좋은 결과로 이어질 수 있어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:02:36.301Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 18,
+  "fields": {
+    "tone": "good",
+    "text": "작은 시도가 흐름을 바꾸는 계기가 돼요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:02:41.377Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 19,
+  "fields": {
+    "tone": "good",
+    "text": "주변의 도움을 자연스럽게 받게 되는 하루예요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:02:47.484Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 20,
+  "fields": {
+    "tone": "good",
+    "text": "자신 있게 나서면 기회가 먼저 다가와요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:02:52.963Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 21,
+  "fields": {
+    "tone": "good",
+    "text": "미뤄두었던 일이 의외로 쉽게 풀릴 수 있어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:03:00.461Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 22,
+  "fields": {
+    "tone": "good",
+    "text": "오늘은 “해볼까?”가 정답이 되는 날이에요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:03:06.829Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 23,
+  "fields": {
+    "tone": "good",
+    "text": "집중력이 좋아 중요한 일을 처리하기 좋아요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:03:42.972Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 24,
+  "fields": {
+    "tone": "good",
+    "text": "말 한마디가 좋은 인상을 남길 수 있어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:03:48.030Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 25,
+  "fields": {
+    "tone": "good",
+    "text": "계획했던 방향이 크게 틀리지 않았어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:03:52.894Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 26,
+  "fields": {
+    "tone": "good",
+    "text": "작은 성취가 하루 전체를 기분 좋게 만들어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:03:58.048Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 27,
+  "fields": {
+    "tone": "good",
+    "text": "지금의 선택이 내일을 편하게 해줘요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:04:03.231Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 28,
+  "fields": {
+    "tone": "good",
+    "text": "오늘은 스스로를 믿어도 되는 날이에요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:04:07.951Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 29,
+  "fields": {
+    "tone": "mid",
+    "text": "오늘은 속도보다 순서가 더 중요해요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:04:13.314Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 30,
+  "fields": {
+    "tone": "mid",
+    "text": "할 일을 정리하면 마음도 함께 가벼워져요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:04:18.116Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 31,
+  "fields": {
+    "tone": "mid",
+    "text": "무리하지 않으면 충분히 괜찮은 하루예요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:04:22.650Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 32,
+  "fields": {
+    "tone": "mid",
+    "text": "하나씩 처리하면 생각보다 잘 흘러가요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:04:39.678Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 33,
+  "fields": {
+    "tone": "mid",
+    "text": "굳이 서두르지 않아도 흐름은 유지돼요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:04:45.483Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 34,
+  "fields": {
+    "tone": "mid",
+    "text": "말은 조금만 아끼는 게 도움이 돼요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:04:51.107Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 35,
+  "fields": {
+    "tone": "mid",
+    "text": "익숙한 선택이 가장 안전할 수 있어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:04:55.851Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 36,
+  "fields": {
+    "tone": "mid",
+    "text": "컨디션 관리가 하루의 질을 좌우해요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:04:59.959Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 37,
+  "fields": {
+    "tone": "mid",
+    "text": "지금 하는 일에 집중하는 게 최선이에요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:04.913Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 38,
+  "fields": {
+    "tone": "mid",
+    "text": "기대를 낮추면 만족은 높아져요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:09.868Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 39,
+  "fields": {
+    "tone": "mid",
+    "text": "평소 하던 방식이 오늘은 잘 맞아요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:14.408Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 40,
+  "fields": {
+    "tone": "mid",
+    "text": "균형을 유지하는 게 오늘의 목표예요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:19.742Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 41,
+  "fields": {
+    "tone": "warn",
+    "text": "오늘은 결정 전에 한 번 더 생각해보세요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:25.112Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 42,
+  "fields": {
+    "tone": "warn",
+    "text": "감정이 앞서기 쉬우니 속도를 낮추는 게 좋아요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:29.787Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 43,
+  "fields": {
+    "tone": "warn",
+    "text": "사소한 약속도 놓치지 않도록 체크가 필요해요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:34.220Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 44,
+  "fields": {
+    "tone": "warn",
+    "text": "무리한 일정은 피하는 게 좋아요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:39.053Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 45,
+  "fields": {
+    "tone": "warn",
+    "text": "지출은 오늘만큼은 한 번 더 고민해보세요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:43.701Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 46,
+  "fields": {
+    "tone": "warn",
+    "text": "추측보다는 직접 확인하는 게 안전해요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:47.844Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 47,
+  "fields": {
+    "tone": "warn",
+    "text": "말수가 많아질수록 오해가 생길 수 있어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:52.621Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 48,
+  "fields": {
+    "tone": "warn",
+    "text": "지금은 확장보다 정리가 필요한 시점이에요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:05:56.876Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 49,
+  "fields": {
+    "tone": "warn",
+    "text": "피곤함이 판단에 영향을 줄 수 있어요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:06:01.531Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 50,
+  "fields": {
+    "tone": "warn",
+    "text": "오늘은 ‘하지 않는 선택’도 좋은 선택이에요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:06:07.397Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 51,
+  "fields": {
+    "tone": "warn",
+    "text": "급한 결론은 내일로 미뤄도 괜찮아요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:06:12.120Z"
+  }
+},
+{
+  "model": "fortune.fortunemessage",
+  "pk": 52,
+  "fields": {
+    "tone": "warn",
+    "text": "쉬어가는 것이 오히려 도움이 되는 날이에요.",
+    "is_active": true,
+    "created_at": "2025-12-30T17:06:16.380Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 1,
+  "fields": {
+    "type": "color",
+    "value": "#1E3A8A",
+    "label": "네이비",
+    "is_active": true,
+    "created_at": "2025-12-30T16:53:23.777Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 2,
+  "fields": {
+    "type": "color",
+    "value": "#0F766E",
+    "label": "딥 그린",
+    "is_active": true,
+    "created_at": "2025-12-30T16:53:33.244Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 3,
+  "fields": {
+    "type": "color",
+    "value": "#7C3AED",
+    "label": "로열 퍼플",
+    "is_active": true,
+    "created_at": "2025-12-30T16:53:41.961Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 4,
+  "fields": {
+    "type": "color",
+    "value": "#F59E0B",
+    "label": "골드 옐로우",
+    "is_active": true,
+    "created_at": "2025-12-30T16:53:50.587Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 5,
+  "fields": {
+    "type": "color",
+    "value": "#111827",
+    "label": "차콜 블랙",
+    "is_active": true,
+    "created_at": "2025-12-30T16:54:00.414Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 6,
+  "fields": {
+    "type": "color",
+    "value": "#DC2626",
+    "label": "레드",
+    "is_active": true,
+    "created_at": "2025-12-30T16:54:11.372Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 7,
+  "fields": {
+    "type": "color",
+    "value": "#2563EB",
+    "label": "클래식 블루",
+    "is_active": true,
+    "created_at": "2025-12-30T16:54:19.203Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 8,
+  "fields": {
+    "type": "color",
+    "value": "#16A34A",
+    "label": "포레스트 그린",
+    "is_active": true,
+    "created_at": "2025-12-30T16:54:28.621Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 9,
+  "fields": {
+    "type": "color",
+    "value": "#F1F5F9",
+    "label": "소프트 화이트",
+    "is_active": true,
+    "created_at": "2025-12-30T16:54:39.156Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 10,
+  "fields": {
+    "type": "color",
+    "value": "#D6BFAE",
+    "label": "웜 베이지",
+    "is_active": true,
+    "created_at": "2025-12-30T16:54:49.072Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 11,
+  "fields": {
+    "type": "item",
+    "value": "notebook",
+    "label": "노트",
+    "is_active": true,
+    "created_at": "2025-12-30T16:55:25.376Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 12,
+  "fields": {
+    "type": "item",
+    "value": "pen",
+    "label": "펜",
+    "is_active": true,
+    "created_at": "2025-12-30T16:55:44.725Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 13,
+  "fields": {
+    "type": "item",
+    "value": "earphones",
+    "label": "이어폰",
+    "is_active": true,
+    "created_at": "2025-12-30T16:55:54.388Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 14,
+  "fields": {
+    "type": "item",
+    "value": "tumbler",
+    "label": "텀블러",
+    "is_active": true,
+    "created_at": "2025-12-30T16:56:03.466Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 15,
+  "fields": {
+    "type": "item",
+    "value": "watch",
+    "label": "손목시계",
+    "is_active": true,
+    "created_at": "2025-12-30T16:56:18.207Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 16,
+  "fields": {
+    "type": "item",
+    "value": "wallet",
+    "label": "지갑",
+    "is_active": true,
+    "created_at": "2025-12-30T16:56:25.859Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 17,
+  "fields": {
+    "type": "keyword",
+    "value": "keyring",
+    "label": "키링",
+    "is_active": true,
+    "created_at": "2025-12-30T16:56:36.086Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 18,
+  "fields": {
+    "type": "item",
+    "value": "book",
+    "label": "책",
+    "is_active": true,
+    "created_at": "2025-12-30T16:56:43.077Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 19,
+  "fields": {
+    "type": "item",
+    "value": "coffee",
+    "label": "커피",
+    "is_active": true,
+    "created_at": "2025-12-30T16:56:53.539Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 20,
+  "fields": {
+    "type": "item",
+    "value": "sticky_note",
+    "label": "포스트잇",
+    "is_active": true,
+    "created_at": "2025-12-30T16:57:04.410Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 21,
+  "fields": {
+    "type": "item",
+    "value": "charger",
+    "label": "충전기",
+    "is_active": true,
+    "created_at": "2025-12-30T16:57:13.122Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 22,
+  "fields": {
+    "type": "keyword",
+    "value": "umbrella",
+    "label": "우산",
+    "is_active": true,
+    "created_at": "2025-12-30T16:57:21.418Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 23,
+  "fields": {
+    "type": "keyword",
+    "value": "focus",
+    "label": "집중",
+    "is_active": true,
+    "created_at": "2025-12-30T16:59:24.945Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 24,
+  "fields": {
+    "type": "keyword",
+    "value": "balance",
+    "label": "균형",
+    "is_active": true,
+    "created_at": "2025-12-30T16:59:39.283Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 25,
+  "fields": {
+    "type": "keyword",
+    "value": "communication",
+    "label": "소통",
+    "is_active": true,
+    "created_at": "2025-12-30T16:59:49.513Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 26,
+  "fields": {
+    "type": "keyword",
+    "value": "patience",
+    "label": "인내",
+    "is_active": true,
+    "created_at": "2025-12-30T16:59:56.712Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 27,
+  "fields": {
+    "type": "keyword",
+    "value": "timing",
+    "label": "타이밍",
+    "is_active": true,
+    "created_at": "2025-12-30T17:00:06.400Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 28,
+  "fields": {
+    "type": "keyword",
+    "value": "cleanup",
+    "label": "정리",
+    "is_active": true,
+    "created_at": "2025-12-30T17:00:18.292Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 29,
+  "fields": {
+    "type": "keyword",
+    "value": "confidence",
+    "label": "자신감",
+    "is_active": true,
+    "created_at": "2025-12-30T17:00:28.014Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 30,
+  "fields": {
+    "type": "keyword",
+    "value": "rest",
+    "label": "휴식",
+    "is_active": true,
+    "created_at": "2025-12-30T17:00:38.317Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 31,
+  "fields": {
+    "type": "keyword",
+    "value": "decision",
+    "label": "결정",
+    "is_active": true,
+    "created_at": "2025-12-30T17:00:46.459Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 32,
+  "fields": {
+    "type": "keyword",
+    "value": "priority",
+    "label": "우선순위",
+    "is_active": true,
+    "created_at": "2025-12-30T17:00:57.757Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 33,
+  "fields": {
+    "type": "keyword",
+    "value": "connection",
+    "label": "연결",
+    "is_active": true,
+    "created_at": "2025-12-30T17:01:03.561Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 34,
+  "fields": {
+    "type": "keyword",
+    "value": "simplicity",
+    "label": "단순함",
+    "is_active": true,
+    "created_at": "2025-12-30T17:01:14.842Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 35,
+  "fields": {
+    "type": "keyword",
+    "value": "consistency",
+    "label": "꾸준함",
+    "is_active": true,
+    "created_at": "2025-12-30T17:01:25.000Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 36,
+  "fields": {
+    "type": "keyword",
+    "value": "flexibility",
+    "label": "유연함",
+    "is_active": true,
+    "created_at": "2025-12-30T17:01:33.249Z"
+  }
+},
+{
+  "model": "fortune.luckyoption",
+  "pk": 37,
+  "fields": {
+    "type": "keyword",
+    "value": "awareness",
+    "label": "인식",
+    "is_active": true,
+    "created_at": "2025-12-30T17:01:41.040Z"
+  }
+}
+]
