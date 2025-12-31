@@ -68,11 +68,7 @@ ONE_LINERS = {
     ],
 }
 
-LUCKY_COLORS = [
-    {"value": "#2E8B57", "label": "포레스트 그린"},
-    {"value": "#FFD700", "label": "골드 옐로우"},
-    {"value": "#4F46E5", "label": "딥 인디고"},
-    {"value": "#F97316", "label": "소프트 오렌지"},
+LUCKY_COLORS = ["포레스트 그린","골드 옐로우","딥 인디고","소프트 오렌지",
 ]
 
 LUCKY_ITEMS = [
