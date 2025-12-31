@@ -71,18 +71,10 @@ ONE_LINERS = {
 LUCKY_COLORS = ["포레스트 그린","골드 옐로우","딥 인디고","소프트 오렌지",
 ]
 
-LUCKY_ITEMS = [
-    {"value": "mug", "label": "머그컵"},
-    {"value": "notebook", "label": "작은 노트"},
-    {"value": "earphones", "label": "이어폰"},
-    {"value": "keyring", "label": "키링"},
+LUCKY_ITEMS = ["머그컵","작은 노트","이어폰","키링",
 ]
 
-LUCKY_KEYWORDS = [
-    {"value": "focus", "label": "집중"},
-    {"value": "calm", "label": "여유"},
-    {"value": "chance", "label": "기회"},
-    {"value": "balance", "label": "균형"},
+LUCKY_KEYWORDS = ["집중","여유","기회","균형",
 ]
 
 
