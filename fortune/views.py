@@ -49,19 +49,45 @@ def chinese_zodiac(year: int) -> str:
 
 ONE_LINERS = {
     "good": [
-        "관리자연락요망",
+        "오늘은 작은 선택 하나가 좋은 흐름을 만들어줘요.",
+        "평소보다 운이 가볍게 따라오는 하루예요.",
+        "망설였던 일, 오늘은 한 번 움직여봐도 좋아요.",
+        "기대하지 않은 곳에서 기분 좋은 일이 생길 수 있어요.",
     ],
     "mid": [
-        "관리자연락요망",
+        "큰 변화는 없지만, 안정적인 하루예요.",
+        "무리하지 말고 평소 페이스를 유지해보세요.",
+        "익숙한 선택이 오히려 도움이 되는 날이에요.",
+        "오늘은 차분함이 가장 큰 행운이에요.",
     ],
     "warn": [
-        "관리자연락요망",
+        "서두르지 말고 한 번 더 확인해보세요.",
+        "작은 말 한마디가 오해로 이어질 수 있어요.",
+        "오늘은 쉬어가는 선택도 충분히 의미 있어요.",
+        "무리한 계획보다는 컨디션을 우선해 주세요.",
     ],
 }
 
-LUCKY_COLORS = ["관리자연락요망"]
-LUCKY_ITEMS = ["관리자연락요망"]
-LUCKY_KEYWORDS = ["관리자연락요망"]
+LUCKY_COLORS = [
+    {"value": "#2E8B57", "label": "포레스트 그린"},
+    {"value": "#FFD700", "label": "골드 옐로우"},
+    {"value": "#4F46E5", "label": "딥 인디고"},
+    {"value": "#F97316", "label": "소프트 오렌지"},
+]
+
+LUCKY_ITEMS = [
+    {"value": "mug", "label": "머그컵"},
+    {"value": "notebook", "label": "작은 노트"},
+    {"value": "earphones", "label": "이어폰"},
+    {"value": "keyring", "label": "키링"},
+]
+
+LUCKY_KEYWORDS = [
+    {"value": "focus", "label": "집중"},
+    {"value": "calm", "label": "여유"},
+    {"value": "chance", "label": "기회"},
+    {"value": "balance", "label": "균형"},
+]
 
 
 def _score_to_tone(score: int) -> str:
@@ -144,13 +170,13 @@ def fortune_api(request):
             "score": score,
             "one_line": rng.choice(msgs),
             "lucky": {
-                "color": lucky_payload("color", color_value),
-                "item": lucky_payload("item", item_value),
-                "keyword": lucky_payload("keyword", keyword_value),
-            },
+            "color": lucky_payload("color", rng.choice(colors)),
+            "item": lucky_payload("item", rng.choice(items)),
+            "keyword": lucky_payload("keyword", rng.choice(keywords)),
         },
-        json_dumps_params={"ensure_ascii": False},
-    )
+    },
+    json_dumps_params={"ensure_ascii": False},
+)
 
 def lucky_payload(opt_type: str, value: str | None):
     if not value:
